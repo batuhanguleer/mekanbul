@@ -1,0 +1,23 @@
+Client, Thunder Client
+CollectionName, Batuhan Sefayi Güler Mekanbul API Testii
+FolderName, 
+EnvironmentName, mekanbul
+DateExported, 2022-11-26T21:51:49.183Z
+Total Iterations, 1
+Total Passed, 1
+Total Failed, 0
+Failed Iterations Numbers, 
+
+
+
+Iteration, 1
+Method, Name, Url, Status, Time, Passed, Total, Result
+POST, Mekan Ekle, http://localhost:3000/api/mekanlar, 201, 6 ms, 0, 0, N/A
+GET, Mekanları Listele, http://localhost:3000/api/mekanlar?enlem=37.7&boylam=30.5, 200, 5 ms, 0, 0, N/A
+GET, Mekan Getir, http://localhost:3000/api/mekanlar/63828a3d2ecf8729c587fcb7, 200, 5 ms, 0, 0, N/A
+PUT, Mekan Güncelle, http://localhost:3000/api/mekanlar/63828a3d2ecf8729c587fcb7, 200, 6 ms, 0, 0, N/A
+POST, Yorum Ekle, http://localhost:3000/api/mekanlar/63828a3d2ecf8729c587fcb7/yorumlar, 201, 6 ms, 0, 0, N/A
+GET, Yorum Getir, http://localhost:3000/api/mekanlar/63828a3d2ecf8729c587fcb7/yorumlar/63828a522ecf8729c587fccc, 200, 4 ms, 0, 0, N/A
+PUT, Yorum Güncelle, http://localhost:3000/api/mekanlar/63828a3d2ecf8729c587fcb7/yorumlar/63828a522ecf8729c587fccc, 200, 6 ms, 0, 0, N/A
+DELETE, Yorum sil, http://localhost:3000/api/mekanlar/63828a3d2ecf8729c587fcb7/yorumlar/63828a522ecf8729c587fccc, 200, 6 ms, 0, 0, N/A
+DELETE, Mekan Sil, http://localhost:3000/api/mekanlar/63828a3d2ecf8729c587fcb7, 200, 3 ms, 0, 0, N/A
